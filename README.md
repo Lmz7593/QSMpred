@@ -9,6 +9,8 @@ conda env create -f environment.yml
 For base_train, the data structure follows the format provided in the file.
 For the test set, the data structure is shown below:
 
+__Data Structure__
+
 | ID | smiles |
 |:----------:|:----------:|:----------:| 
 | 100016 | O=c1ncccn1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O |
