@@ -3,7 +3,9 @@ A LBVS classifier for mining Quorum Sensing Molecules
 
 # QSMpred Environment Setup for Local Deployment
 QSMpred is validated for Windows. We recommend installation via conda. For set up using conda, please refer to the relevant code line provided below.
+```
 conda env create -f environment.yml
+```
 
 # Data Structure
 For base_train, the data structure follows the format provided in the file.
@@ -21,16 +23,16 @@ __Data Structure__
 # Using of QSMpred
 For each model, the following steps should be followed to use the model.
 ## preprocess data
-'''
+```
 python 01_datapreprocess.py
-'''
+```
 
 ## train model
-'''
+```
 python 02_train_models.py
-'''
+```
 
 ## test
-'''
+```
 python 03_test.py
-'''
+```
